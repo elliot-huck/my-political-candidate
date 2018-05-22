@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {}
+
+.article {}
+
+.article--main {}
+
+.span--blue {}
+
+.list {}
+
+.li {}
+
+.li--sublist {}
+
+.li__a {}
