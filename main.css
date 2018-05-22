@@ -2,17 +2,47 @@
   box-sizing: border-box;
 }
 
-body {}
+body {
+  background-color: bisque;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
 
 .article {}
 
 .article--main {}
 
-.span--blue {}
+.main-header {
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding: 0;
+}
 
-.list {}
+.section__header {
+  text-decoration: underline;
+  margin-top: 3em 0 .5em 0;
+}
 
-.li {}
+.blue {
+  color: darkslateblue;
+  font-weight: bold;
+}
+
+/* .list {
+  margin-top: .1em;
+} */
+
+.list--sublist {
+  margin-bottom: .5em;
+}
+
+.li--main {
+  list-style-type: none;
+}
 
 .li--sublist {}
 
